@@ -1,9 +1,24 @@
 .outer-square {
   /* your css goes here */
+    height: 600px;
+    width: 600px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:repeat(3,1fr) ;
+    
+    display: grid;
 }
 .inner-square {
   /* your css goes here */
+   width:200px;
+  height:200px;
+   margin:10px;
+  background-color: lightgreen;
 }
 .circle {
   /* your css goes here */
+  width:200px;
+  height:200px;
+ margin:10px;
+    border-radius:50%;
+    background-color: lightblue;
 }
