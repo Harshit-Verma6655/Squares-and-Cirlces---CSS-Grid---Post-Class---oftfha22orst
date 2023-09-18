@@ -12,7 +12,7 @@
    width:200px;
   height:200px;
    margin:10px;
-  background-color: lightgreen;
+  background-color: green;
 }
 .circle {
   /* your css goes here */
@@ -20,5 +20,5 @@
   height:200px;
  margin:10px;
     border-radius:50%;
-    background-color: lightblue;
+    background-color: blue;
 }
